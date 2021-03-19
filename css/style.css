@@ -54,7 +54,7 @@ a {
     height: calc(100% - 152px);
     max-width: 1146px;
     margin: auto;
-    padding: 7% 0;
+    padding: 10% 0;
 }
 
 .tags {
@@ -82,7 +82,7 @@ a {
 
 .description {
     max-width: 460px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 150%;
     margin-bottom: 36px;
 }
@@ -118,19 +118,16 @@ a {
     video {
         display: none;
     }
-}
-
-.film {
-    padding-top: 3%;
-}
-
-.film-logo {
-    max-width: 90%;
-}
-
-.description {
-    font-size: 16px;
-    min-width: 333px;
+    .film {
+        padding-top: 3%;
+    }
+    .film-logo {
+        max-width: 90%;
+    }
+    .description {
+        font-size: 16px;
+        min-width: 333px;
+    }
 }
 
 @media (max-width: 576px) {
