@@ -37,7 +37,7 @@
                 Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва, где останется только сильнейший
             </p>
             <div class="button-group">
-                <button class="button button-primary">Предзаказ фильма</button>
+                <a data-fancybox data-src="#hidden-content" href="javascript:;" class="button button-primary">Предзаказ фильма</a>
                 <a class="button button-default" data-fancybox href="video/treller_mortalcombat.mp4">
                     <img src="img/play.svg" alt="icon: play" class="button-icon" />
                     <span class="button-text">Смотреть трейлер</span>
@@ -46,6 +46,12 @@
             <!-- /.button-group  -->
         </section>
     </div>
+    
+    <div style="display: none;" id="hidden-content">
+        <form action="#" metod="get">
+            <input class="modal_form" type="email" name="mail" placeholder="Ваш email" required">
+            <button class="modal_btn" type="submit">Подписаться</button>                                                                                    
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/jquery.vide.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
