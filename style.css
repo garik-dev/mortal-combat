@@ -108,6 +108,12 @@ a {
     vertical-align: text-bottom;
 }
 
+input[type=text] {
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
 @media (max-width: 768px) {
     .app {
         height: auto;
