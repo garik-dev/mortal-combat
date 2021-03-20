@@ -43,7 +43,7 @@ a {
 }
 
 .app {
-    max-width: 100%;
+    max-width: 1150px;
     background: linear-gradient( 90deg, #010202 0%, #010202 43%, rgba(1, 2, 2, 0.2) 90%);
     min-height: 100vh;
     color: #fff;
