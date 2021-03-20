@@ -12,7 +12,8 @@ a {
 }
 
 .header {
-    max-width: 1446px;
+    max-width: 1150px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
